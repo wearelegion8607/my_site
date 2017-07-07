@@ -1,4 +1,62 @@
 .wrapper {
-  width: 1100px;
-  margin: auto;
-  color: #4c53ff; }
+  width: 940px;
+  margin: 0 auto; }
+
+body {
+  font-family: Arial,sans-serif; }
+
+header {
+  background: url("../img/first-bg.jpg") no-repeat top center;
+  padding-bottom: 160px !important; }
+
+.top {
+  padding-top: 41px;
+  font-family: Arial,sans-serif; }
+
+.top__menu {
+  float: right;
+  margin-top: 7px; }
+
+.top__logo__items {
+  float: left;
+  list-style-type: none;
+  margin-right: 41px; }
+  .top__logo__items:last-child {
+    margin: 0; }
+  .top__logo__items a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; }
+
+.welcome {
+  padding-top: 215px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif; }
+
+.welcome__studio {
+  font-size: 38px; }
+
+.welcome__nice {
+  font-size: 57px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
+.btn {
+  color: #484543;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  background: #fed136;
+  width: 240px;
+  padding: 20px 0;
+  transition: 0.3s;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 auto; }
+  .btn:hover {
+    background: #e3bb33; }
